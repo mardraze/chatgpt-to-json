@@ -4,6 +4,7 @@
   "name": "chatgpt-to-json",
   "version": "1.0",
   "author": "Marcin Drazek",
+  "homepage_url": "https://github.com/mardraze/chatgpt-to-json",
   "icons": {
     "48": "icons/star.png"
   },
