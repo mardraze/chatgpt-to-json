@@ -8,7 +8,7 @@ See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/devtools.inspe
 var chatGptLog = [];
 
 function updateCounter(){
-	document.getElementById("messages_count").innerHTML = chatGptLog.length + '';
+	document.getElementById("messages_count").textContent = chatGptLog.length + '';
 }
 
 document.getElementById("button_clear").addEventListener("click", () => {
